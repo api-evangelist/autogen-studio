@@ -82,7 +82,7 @@ common:
     url: https://youtu.be/oum6EI7wohM
   - type: ResearchPaper
     url: https://aclanthology.org/2024.emnlp-demo.8/
-  - type: Roadmap
+  - type: RoadMap
     url: https://github.com/microsoft/autogen/issues
   - type: License
     url: https://github.com/microsoft/autogen/blob/main/LICENSE-CODE
