@@ -54,6 +54,8 @@ modified: '2026-05-24'
 specificationVersion: '0.20'
 apis: []
 common:
+  - url: https://microsoft.github.io/autogen/0.2/blog/rss.xml
+    type: Blog
   - type: Website
     url: https://microsoft.github.io/autogen/
   - type: Documentation
