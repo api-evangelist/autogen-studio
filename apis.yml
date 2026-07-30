@@ -25,9 +25,20 @@ description: >-
   Companion to the broader AutoGen multi-agent framework, distributed under
   the Microsoft microsoft/autogen monorepo (CC-BY-4.0 docs, MIT code).
 type: Index
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 position: Provider
 access: Open Source
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/autogen-studio.png
 tags:
   - AutoGen
   - AutoGen Studio
