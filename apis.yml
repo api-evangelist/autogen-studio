@@ -25,6 +25,17 @@ description: >-
   Companion to the broader AutoGen multi-agent framework, distributed under
   the Microsoft microsoft/autogen monorepo (CC-BY-4.0 docs, MIT code).
 type: Index
+deliveryModel:
+  model: unknown
+  open_source: unknown
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - repository-unlicensed
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
