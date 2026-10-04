@@ -27,14 +27,17 @@ description: >-
 type: Index
 deliveryModel:
   model: unknown
+  license_evidence:
+    not_product:
+    - microsoft/autogen
   open_source: unknown
   commercial: false
   callable_host: false
   label: Delivery model not determined — needs a product licence on record
   confidence: low
   source:
-  - repository-unlicensed
-  generated: '2026-08-28'
+  - repository-not-product
+  generated: '2026-09-25'
   method: derived
 accessModel:
   pricing: unknown
@@ -55,7 +58,7 @@ tags:
   - AutoGen Studio
   - Multi-Agent
   - Agent Framework
-  - Agentic AI
+  - AI Agents
   - Low-Code
   - No-Code
   - GUI
@@ -69,7 +72,7 @@ tags:
   - React
   - SQLModel
   - MCP
-  - Open-Source
+  - Open Source
 tags_raw:
   - AutoGen
   - AutoGen Studio
@@ -90,6 +93,7 @@ tags_raw:
   - SQLModel
   - MCP
   - Open Source
+  - Open-Source
 url: https://raw.githubusercontent.com/api-evangelist/autogen-studio/refs/heads/main/apis.yml
 created: '2026-05-24'
 modified: '2026-05-24'
