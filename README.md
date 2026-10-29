@@ -1,4 +1,4 @@
-# autogen-studio
+# AutoGen Studio
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,72 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-AutoGen Studio — Microsoft Research low-code GUI for prototyping multi-agent AutoGen workflows
+AutoGen Studio is a low-code / no-code developer GUI from Microsoft Research for rapidly prototyping, composing, and debugging multi-agent AI workflows built on the AutoGen framework. Shipped as the `autogenstudio` Python package and launched with `autogenstudio ui`, it serves a FastAPI + React (Gatsby) web app on localhost that exposes four primary interfaces — Team Builder, Playground, Gallery, and Deployment — backed by a SQLModel persistence layer (SQLite by default; any SQLAlchemy-compatible backend such as PostgreSQL, MySQL, MSSQL via `--database-uri`). The Team Builder offers drag-and-drop and JSON authoring of teams, agents, models, tools, and termination conditions fully aligned with AutoGen AgentChat's declarative component spec; the Playground streams live inter-agent messages and renders the control transition graph; the Gallery imports community components; and the Deployment view exports a team to Python, exposes it as an endpoint, and packages it for Docker. AutoGen Studio is built on AutoGen AgentChat / Core / Extensions and supports any OpenAI-compatible model endpoint (OpenAI, Azure OpenAI, Anthropic, local vLLM/Ollama, etc.) via declarative `model_client` configuration, plus MCP tool integration. Authentication is experimental (GitHub OAuth + JWT only). Microsoft explicitly positions AutoGen Studio as a research prototype — not production-ready — and encourages teams that need authn/z, multi-tenancy, sandboxing rigor, or hardened deployment to build directly on the AutoGen framework instead. Companion to the broader AutoGen multi-agent framework, distributed under the Microsoft microsoft/autogen monorepo (CC-BY-4.0 docs, MIT code).
+
+**Areas:** AutoGen · AutoGen Studio · Multi-Agent · Agent Framework · AI Agents · Low-Code · No-Code · GUI · Visual Builder · Drag And Drop · Prototyping · AgentChat
+
+## AutoGen Studio on APIs.io
+
+Everything profiled for AutoGen Studio is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/autogen-studio/](https://apis.io/providers/autogen-studio/)** — or go straight to one of the APIs or properties below.
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://microsoft.github.io/autogen/)
+- [Documentation](https://microsoft.github.io/autogen/stable/user-guide/autogenstudio-user-guide/index.html)
+- [Blog](https://microsoft.github.io/autogen/0.2/blog/rss.xml)
+- [GitHub](https://github.com/microsoft)
+
+## API Evangelist rating
+
+**Kin Score 11.2** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 34.2 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/autogen-studio/](https://apis.io/providers/autogen-studio/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AutoGen Studio: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/autogen-studio/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
